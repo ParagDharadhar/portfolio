@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Left circle (Dev) -->
+  <path d="M5 20 A15 15 0 0 1 35 20" fill="none" stroke="url(#grad1)" stroke-width="3"/>
+  <text x="8" y="22" font-family="Arial, sans-serif" font-size="8" fill="url(#grad1)">Dev</text>
+  
+  <!-- Right circle (Ops) -->
+  <path d="M35 20 A15 15 0 0 1 5 20" fill="none" stroke="url(#grad1)" stroke-width="3"/>
+  <text x="26" y="22" font-family="Arial, sans-serif" font-size="8" fill="url(#grad1)">Ops</text>
+  
+  <!-- DevOps cycle labels -->
+  <text x="3" y="10" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">PLAN</text>
+  <text x="2" y="32" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">CODE</text>
+  <text x="15" y="38" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">BUILD</text>
+  <text x="15" y="6" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">TEST</text>
+  <text x="30" y="10" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">RELEASE</text>
+  <text x="30" y="32" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">DEPLOY</text>
+  <text x="20" y="38" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">OPERATE</text>
+  <text x="20" y="6" font-family="Arial, sans-serif" font-size="4" fill="url(#grad1)">MONITOR</text>
+</svg>
